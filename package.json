@@ -1,0 +1,31 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "just play with express framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "debug": "DEBUG=express:* nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-M-T/express-app.git"
+  },
+  "author": "Ahmed mohamed taha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-M-T/express-app/issues"
+  },
+  "homepage": "https://github.com/Ahmed-M-T/express-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
